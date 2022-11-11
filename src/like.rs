@@ -39,8 +39,9 @@ impl Like {
     }
 }
 
-#[table_name = "likes"]
 #[derive(Queryable, Insertable)]
+#[table_name = "likes"]
+
 pub struct LikeDB {
     pub id: Uuid,
     pub created_at: NaiveDateTime,

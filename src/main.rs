@@ -1,3 +1,5 @@
+// cargo run --target=aarch64-apple-darwin
+
 #[macro_use]
 extern crate actix_web;
 #[macro_use]
